@@ -104,4 +104,4 @@ class MjpegServer(object):
 
     def shutdown(self):
         self.server.shutdown()
-        del self.server
+        del self.server
