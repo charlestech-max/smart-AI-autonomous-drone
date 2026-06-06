@@ -20,4 +20,4 @@ samples, guidance on mobile development, and a full API reference.
 1. Create a new flutter project
 2. Replace the files in this folder with the files in new project
 3. Connect your Android Studio / VSCode to Emulator for testing or an actual device.
-4. Start app to see the working.
+4. Start app to see the working.
