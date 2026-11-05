@@ -291,4 +291,4 @@ class TrtYOLO(object):
         # clip x1, y1, x2, y2 within original image
         boxes[:, [0, 2]] = np.clip(boxes[:, [0, 2]], 0, img.shape[1]-1)
         boxes[:, [1, 3]] = np.clip(boxes[:, [1, 3]], 0, img.shape[0]-1)
-        return boxes, scores, classes
+        return boxes, scores, classes
