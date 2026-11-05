@@ -99,4 +99,4 @@ class BBoxVisualization():
             cls_name = self.cls_dict.get(cl, 'CLS{}'.format(cl))
             txt = '{} {:.2f}'.format(cls_name, cf)
             img = draw_boxed_text(img, txt, txt_loc, color)
-        return img
+        return img
